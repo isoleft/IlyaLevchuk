@@ -1,0 +1,147 @@
+body
+  {
+    background-color: rgba(165, 197, 215, 1);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .image {
+    border-radius: 200px;
+    border: 3px;
+    box-shadow: 0 0 7px #666;
+    margin-top: 30px;
+   }
+   .rectangle {
+    width: 289px;
+    height: 250px;
+    margin-top: 30px;
+    background: rgba(141, 176, 195, 1);
+    margin-left: 16px;
+    text-align: center;
+   }
+   .text1
+   {
+   	font-family: 'Alice';
+   	font-size: 16px;
+   	margin-top: 41px;
+   	margin-left: 19px;
+   	margin-right: 19px;
+   	margin-bottom: 34px;
+   	color: #363636;
+	font-weight: normal;
+   }
+   .text2
+   {
+   	font-size: 24px; 	
+   }
+   .contact
+   {
+   	width: 270px;
+   	height: 213px;
+   	font-family: 'Alice';
+   	color: #363636;
+   	text-align: right;	
+   }
+   dt
+   {
+   	font-size: 24px;
+   	line-height: 27px;
+   	margin-top: 15px;
+   }
+   dd
+   {
+   	font-size: 16px;
+   	line-height: 19px;
+   }
+   .level {
+    display: flex;
+    flex-direction: row;
+   }
+   .level2
+   {
+    display: inline-block;
+   }
+   .texts
+   {
+    text-align: center;
+    font-family: 'Alice';
+    font-size: 24px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+   }
+   .texts_skill
+   {
+    font-family: 'Alice';
+    font-size: 24px;
+    margin-left: 138px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+   }
+   .skill
+   {
+    width: 155px;
+    height: 190px;
+    font-family: 'Alice';
+    color: #363636;
+    text-align: center;
+    margin-left: 116px;
+    font-size: 18px;
+    margin-top: 35px;
+   }
+   .p_1
+   {
+    margin-bottom: 25px;
+   }
+   .hr1
+   {
+    width: 249px;
+    border: 1px solid #363636;
+   }
+   .hr2
+   {
+    width: 226px;
+    border: 1px solid #363636;
+    margin-left: 58px;
+   }
+   .main
+   {
+    text-align: center;
+   }
+   @media (max-width: 767px) {
+    .level {
+      flex-direction: column;
+      align-items: center;
+    }
+    .level2
+    {
+      flex-direction: column;
+      align-items: right;
+    }
+    .rectangle {
+      margin-left: 0;
+      margin-top: 18px    	
+    }
+    .contact {
+      text-align: right;
+    }
+    dd {
+      margin: 0;
+    }
+    .hr2
+    {
+      margin: 0;
+      margin-left: 30px;
+    }
+    .texts_skill
+    {
+      margin-left: 0;
+      text-align: center;
+    }
+    .skill
+    {
+      text-align: center;
+      margin-left: 55px;
+    }
+   }
